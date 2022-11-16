@@ -1,4 +1,4 @@
-// HOME FUNCTIONS
+// HOME 
 let homeScoreDisplay = document.getElementById("homeScoreDisplay")
 let homeScore = 0
 
@@ -18,21 +18,21 @@ function homeScoreThree(){
 }
 
 
-// GUEST 
-let guestScoreDisplay = document.getElementById("guestScoreDisplay")
-let guestScore = 0
+// AWAY 
+let awayScoreDisplay = document.getElementById("awayScoreDisplay")
+let awayScore = 0
 
-function guestScoreOne(){
-    guestScore += 1
-    guestScoreDisplay.textContent = guestScore
+function awayScoreOne(){
+    awayScore += 1
+    awayScoreDisplay.textContent = awayScore
 }
 
-function guestScoreTwo(){
-    guestScore += 2
-    guestScoreDisplay.textContent = guestScore
+function awayScoreTwo(){
+    awayScore += 2
+    awayScoreDisplay.textContent = awayScore
 }
 
-function guestScoreThree(){
-    guestScore += 3
-    guestScoreDisplay.textContent = guestScore
+function awayScoreThree(){
+    awayScore += 3
+    awayScoreDisplay.textContent = awayScore
 }
