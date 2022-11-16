@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1B244A;
+  color: aliceblue;
+  padding: .5em;
+}
+
+.scoreboard {
+  display: flex;
+}
+
+.sb-team {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: .3em;
+  margin-top: .5em;
+  font-size: 1.5rem;
+}
+
+.sb-score {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  max-height: 6em;
+  background-color: #000;
+}
+
+.sb-score h4 {
+  color: red;
+  font-size: 2rem;
+}
+
+.sb-points button {
+  color: aliceblue;
+  background-color: #1B244A;
+  border: .1em solid aliceblue;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 3px;
+  aspect-ratio: 1;
+}
